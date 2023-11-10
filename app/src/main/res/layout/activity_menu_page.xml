@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menuPage"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <!-- Food Item 1 -->
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:clickable="true"
+                android:background="@drawable/menu_item_selector">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description1"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 1" />
+
+                <Button
+                    android:id="@+id/minus_button1"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button1"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <!-- Food Item 2 -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/menu_item_selector">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description2"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 2" />
+
+                <Button
+                    android:id="@+id/minus_button2"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button2"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+
+            <!-- Food Item 3 -->
+
+
+            <!-- Food Item 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 3" />
+
+                <Button
+                    android:id="@+id/minus_button3"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button3"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description4"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 4" />
+
+                <Button
+                    android:id="@+id/minus_button4"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button4"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+
+            <!-- Food Item 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description5"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 5" />
+
+                <Button
+                    android:id="@+id/minus_button5"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button5"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+
+            <!-- Food Item 6 -->
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description6"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 6" />
+
+                <Button
+                    android:id="@+id/minus_button6"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button6"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+
+            <!-- Food Item 7 -->
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description7"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 7" />
+
+                <Button
+                    android:id="@+id/minus_button7"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button7"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+
+            <!-- Food Item 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description8"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 8" />
+
+                <Button
+                    android:id="@+id/minus_button8"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button8"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+            <!-- Food Item 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img2" />
+
+                <TextView
+                    android:id="@+id/description9"
+                    android:layout_width="155dp"
+                    android:layout_height="35dp"
+                    android:text="Description for Food Item 3" />
+
+                <Button
+                    android:id="@+id/minus_button9"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/quantity_text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <Button
+
+                    android:layout_width="53dp"
+                    android:id="@+id/plus_button9"
+
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <!-- Add more food items as needed -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="Order" />
+
+</LinearLayout>
